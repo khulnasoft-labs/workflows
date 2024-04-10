@@ -16,7 +16,7 @@ jobs:
       - name: Auto Merge
         run: |
           # Add any custom scripts or commands here to perform the merge
-          git config user.name "KhulnaSoft-Lab"
+          git config user.name "gitworkflows"
           git config user.email "security@khulnasoft.com"
           git checkout main
           git merge ${{ github.event.before }}
