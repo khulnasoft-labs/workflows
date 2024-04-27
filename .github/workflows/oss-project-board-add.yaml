@@ -49,7 +49,7 @@ jobs:
           echo "Issue Author: ${{ github.event.issue.user.login }}"
 
       # add all new issues to the project board
-      - uses: actions/add-to-project@31b3f3ccdc584546fc445612dec3f38ff5edb41c #v0.5.0
+      - uses: actions/add-to-project@1b844f0c5ac6446a402e0cb3693f9be5eca188c5 # v0.6.1
         id: add-issue-to-project
         with:
           project-url: ${{ inputs.project_url }}
